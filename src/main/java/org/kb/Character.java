@@ -9,13 +9,15 @@ public class Character {
     public int hp;
     public int maxHp;
     private FacebookProvider facebookProvider;
+    private Weapon weapon;
 
-    public Character(String firstName, String lastName, int maxHp, FacebookProvider facebookProvider){
+    public Character(String firstName, String lastName, int maxHp, FacebookProvider facebookProvider, Weapon weapon){
         this.firstName = firstName;
         this.lastName = lastName;
         this.maxHp = maxHp;
         this.hp = maxHp;
         this.facebookProvider = facebookProvider;
+        this.weapon = weapon;
     }
     public String getFullName(){
         return firstName + " " + lastName;
@@ -23,9 +25,15 @@ public class Character {
 
     public void attack(Character other) throws Exception {
         if(!other.isAlive()){
+            if (this.weapon == null){
+                  other.hp--;
+            } else {
+                other.hp -= this.weapon.getDamage();
+            }
             throw new Exception("Character is dead");
         }
-        other.hp--;
+
+
     }
 
     public boolean isAlive() {

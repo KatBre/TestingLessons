@@ -1,5 +1,11 @@
 package org.kb;
 
-public class Weapon {
+public abstract class Weapon {
+
+
+    public Weapon() {
+    }
+
+    public abstract int getDamage();
 
 }
