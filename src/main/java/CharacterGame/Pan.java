@@ -1,4 +1,6 @@
-package org.kb;
+package CharacterGame;
+
+import CharacterGame.Weapon;
 
 public class Pan extends Weapon {
 

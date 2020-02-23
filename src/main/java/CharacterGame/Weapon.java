@@ -1,4 +1,4 @@
-package org.kb;
+package CharacterGame;
 
 public abstract class Weapon {
 

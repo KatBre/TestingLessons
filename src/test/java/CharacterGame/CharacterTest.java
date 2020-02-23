@@ -1,4 +1,4 @@
-package org.kb;
+package CharacterGame;
 
 
 import org.junit.jupiter.api.Disabled;
@@ -9,6 +9,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -120,7 +121,7 @@ public class CharacterTest {
     public void assdasd(int hits, boolean expectedIsAlive) throws Exception {
         Character first = new Character("Czesiek", "Kowalski", 10, null, null);
         Character second = new Character("Franek", "Kimono", 10, null, null);
-        for (int i = 0; i < hits; ++i){
+        for (int i = 0; i < hits; ++i) {
             first.attack(second);
         }
         assertThat(second.isAlive()).isEqualTo(expectedIsAlive);
@@ -144,12 +145,55 @@ public class CharacterTest {
     }
 
     @Test
-    public void attackFriends_facebookProviderIsCalledForCharactersFullName() throws Exception {
-        FacebookProvider providerMock = mock(FacebookProvider.class);
-        Character attacker = new Character("Czesiek", "Kowalski", 10,
-                providerMock, null);
-        attacker.attackFriends();
-        verify(providerMock, times(1)).getFriends("Czesiek Kowalski");
-        verifyNoMoreInteractions(providerMock);
+    public void twoSameCharactersAreNotEqual() {
+        Character character1 = new Character("Czesiek", "Kowalski", 10, null, null);
+        Character character2 = new Character("Czesiek", "Kowalski", 10, null, null);
+        assertThat(character1).isNotEqualTo(character2);
+    }
+
+    @Test
+    public void twoSameCharacterAreEqualComparingFieldByField() {
+        Character character1 = new Character("Czesiek", "Kowalski", 10, null, null);
+        Character character2 = new Character("Czesiek", "Kowalski", 10, null, null);
+        assertThat(character1).isEqualToComparingFieldByField(character2);
+    }
+
+    @Test
+    public void colletion_asserts() {
+        Character character1 = new Character("Czesiek1", "Kowalski", 10, null, null);
+        Character character2 = new Character("Czesiek2", "Kowalski", 10, null, null);
+        Character character3 = new Character("Czesiek3", "Kowalski", 10, null, null);
+        List<Character> twoCharacters = Arrays.asList(character1, character2);
+        assertThat(twoCharacters).contains(character2);
+        assertThat(twoCharacters).doesNotContain(character3);
+    }
+
+    @Test
+    public void createdCharacterHasCorrectHpAndIsAlive() {
+        Character alive = new Character("Czesiek1", "Kowalski", 10, null, null);
+        Character dead = new Character("Czesiek1", "Kowalski", 0, null, null);
+        CharacterAssert.assertThat(alive).isAlive().hasHp(10);
+        CharacterAssert.assertThat(alive).hasHp(10).isAlive();
+        // CharacterAssert.assertThat(dead).isAlive(); // should fail
+    }
+
+    @Test
+    public void executeCombat_isOneNotAlive_isTrue() throws Exception {
+        Character first = new Character("Czesiek", "Kowalski", 10, null, new Stick());
+        Character second = new Character("Franek", "Kimono", 10, null, new Pan());
+
+        CombatManager manager = new CombatManager(new FakeFacebookProvider());
+        manager.executeCombat(first, second);
+
+//    System.out.println(first.hp);
+//    System.out.println(second.hp);
+
+        assertThat(first.isAlive()).isFalse();
+        assertThat(second.isAlive()).isFalse();
+    }
+
+    @Test
+    public void healFriends_isEvenOneFriendHealed_oneIsHealed() throws Exception {
+
     }
 }

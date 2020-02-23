@@ -11,14 +11,14 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class CesarToAhmedConverterTest {
-    @Test
-    public void convert_I_return1() {
-        CesarToAhmedConverter conv = new CesarToAhmedConverter();
-
-       int result =  conv.convert("I");
-
-        assertThat(result).isEqualTo(1);
-    }
+//    @Test
+//    public void convert_I_return1() {
+//        CesarToAhmedConverter conv = new CesarToAhmedConverter();
+//
+//       int result =  conv.convert("I");
+//
+//        assertThat(result).isEqualTo(1);
+//    }
 
     static Stream<Arguments> inputProvider() {
         return Stream.of(
@@ -41,14 +41,14 @@ public class CesarToAhmedConverterTest {
         );
     }
 
-    @ParameterizedTest
-    @MethodSource("inputProvider")
-    public void convert_singleCesarInput_returnAhmedNumber() {
-        CesarToAhmedConverter conv = new CesarToAhmedConverter();
-
-        int result =  conv.convert("I");
-
-        assertThat(result).isEqualTo(1);
-    }
+//    @ParameterizedTest
+//    @MethodSource("inputProvider")
+//    public void convert_singleCesarInput_returnAhmedNumber(String input, int expectedResult) {
+//        CesarToAhmedConverter conv = new CesarToAhmedConverter();
+//
+//        int result =  conv.convert(input);
+//
+//        assertThat(result).isEqualTo(expectedResult);
+//    }
 
 }

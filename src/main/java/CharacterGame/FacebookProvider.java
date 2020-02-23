@@ -1,4 +1,6 @@
-package org.kb;
+package CharacterGame;
+
+import CharacterGame.Character;
 
 import java.util.Arrays;
 import java.util.List;

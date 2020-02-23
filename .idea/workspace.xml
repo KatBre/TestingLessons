@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15833c21-1588-4519-8ed1-ccbd087c008b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CharacterGame/CombatManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CharacterGame/Stick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kb/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kb/StringCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kb/Subcalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CharacterGame/CharacterAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/CharacterGame/Character.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/CharacterGame/CombatManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/CharacterGame/FacebookProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/CharacterGame/Pan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/CharacterGame/Weapon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Testing.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/kb/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/kb/CesarToAhmedConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/kb/StringCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/kb/Subcalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/CharacterGame/CharacterAssert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/CharacterGame/CharacterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/CharacterGame/FakeFacebookProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/Testing.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/kb/CalculatorTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/kb/CesarToAhmedConverterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/kb/StringCalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kb/CesarToAhmedConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kb/CesarToAhmedConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kb/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CharacterGame/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kb/FacebookProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CharacterGame/FacebookProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kb/Pan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CharacterGame/Pan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kb/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CharacterGame/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kb/CesarToAhmedConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kb/CesarToAhmedConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kb/CharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CharacterGame/CharacterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kb/FakeFacebookProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CharacterGame/FakeFacebookProvider.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="212" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Kasia\IdeaProjects\Testing\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y9nzDP9WgroZdp6raPFiPX79Au" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.44367817" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="CharacterGame" />
+      <recent name="org.kb" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="CharacterGame" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.kb" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CharacterTest.qwerty">
+    <configuration name="CesarToAhmedConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CharacterGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.kb" />
+      <option name="MAIN_CLASS_NAME" value="org.kb.CesarToAhmedConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CesarToAhmedConverterTest.convert_I_return1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CharacterGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.kb" />
+      <option name="MAIN_CLASS_NAME" value="org.kb.CesarToAhmedConverterTest" />
+      <option name="METHOD_NAME" value="convert_I_return1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CesarToAhmedConverterTest.convert_singleCesarInput_returnAhmedNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CharacterGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.kb" />
+      <option name="MAIN_CLASS_NAME" value="org.kb.CesarToAhmedConverterTest" />
+      <option name="METHOD_NAME" value="convert_singleCesarInput_returnAhmedNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CesarToAhmedConverterTest.convert_singleCesarInput_returnAhmedNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CharacterGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.kb" />
+      <option name="MAIN_CLASS_NAME" value="org.kb.CesarToAhmedConverterTest" />
+      <option name="METHOD_NAME" value="convert_singleCesarInput_returnAhmedNumber(java.lang.String,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterTest.qwerty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CharacterGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CharacterGame" />
+      <option name="MAIN_CLASS_NAME" value="CharacterGame.CharacterTest" />
+      <option name="METHOD_NAME" value="qwerty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CharacterTest.qwerty" />
+        <item itemvalue="JUnit.CesarToAhmedConverterTest.convert_singleCesarInput_returnAhmedNumber (1)" />
+        <item itemvalue="JUnit.CesarToAhmedConverterTest.convert_singleCesarInput_returnAhmedNumber" />
+        <item itemvalue="JUnit.CesarToAhmedConverterTest.convert_I_return1" />
+        <item itemvalue="JUnit.CesarToAhmedConverterTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15833c21-1588-4519-8ed1-ccbd087c008b" name="Default Changelist" comment="" />
+      <created>1582363937429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582363937429</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1582381604233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582381604233</updated>
+    </task>
+    <task id="LOCAL-00002" summary="testing exercises added">
+      <created>1582383725086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582383725086</updated>
+    </task>
+    <task id="LOCAL-00003" summary="calculator and CesarToAhmedConverter added">
+      <created>1582459601214</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582459601214</updated>
+    </task>
+    <task id="LOCAL-00004" summary="CesarToAhmedConverter tests added">
+      <created>1582460046011</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582460046011</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="testing exercises added" />
+    <MESSAGE value="calculator and CesarToAhmedConverter added" />
+    <MESSAGE value="CesarToAhmedConverter tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CesarToAhmedConverter tests added" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="828" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582364839772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582364839772" />
+    <state x="1156" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1582382118647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1156" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582382118647" />
+    <state x="1148" y="372" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582463771258">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1148" y="372" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1582463771258" />
+    <state x="614" y="113" key="CommitChangelistDialog2" timestamp="1582460045596">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582460045596" />
+    <state x="1082" y="280" key="FileChooserDialogImpl" timestamp="1582381127500">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1082" y="280" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582381127500" />
+    <state width="1920" height="259" key="GridCell.Tab.0.bottom" timestamp="1582468176735">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1920" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582468176735" />
+    <state width="1920" height="259" key="GridCell.Tab.0.center" timestamp="1582468176735">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1920" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582468176735" />
+    <state width="1920" height="259" key="GridCell.Tab.0.left" timestamp="1582468176734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1920" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582468176734" />
+    <state width="1920" height="259" key="GridCell.Tab.0.right" timestamp="1582468176735">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1920" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582468176735" />
+    <state width="1920" height="294" key="GridCell.Tab.1.bottom" timestamp="1582467922199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1920" height="294" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582467922199" />
+    <state width="1920" height="294" key="GridCell.Tab.1.center" timestamp="1582467922199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1920" height="294" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582467922199" />
+    <state width="1920" height="294" key="GridCell.Tab.1.left" timestamp="1582467922199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1920" height="294" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582467922199" />
+    <state width="1920" height="294" key="GridCell.Tab.1.right" timestamp="1582467922199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1920" height="294" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582467922199" />
+    <state x="860" y="93" key="SettingsEditor" timestamp="1582380058373">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="860" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582380058373" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1582460058077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582460058077" />
+    <state x="1084" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582380051763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1084" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1582380051763" />
+    <state x="690" y="274" key="extract.method.dialog" timestamp="1582459349031">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="274" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582459349031" />
+    <state x="685" y="221" key="new project wizard" timestamp="1582366843676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="685" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1582366843676" />
+    <state x="601" y="235" width="700" height="530" key="recent.locations.popup" timestamp="1582458512080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="235" width="700" height="530" key="recent.locations.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582458512080" />
+    <state x="702" y="138" key="refactoring.ChangeSignatureDialog" timestamp="1582382316727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="702" y="138" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582382316727" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582383025453">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582383025453" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Testing$CalculatorTests.ic" NAME="CalculatorTests Coverage Results" MODIFIED="1582450369141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.kb.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Testing$CharacterTest.ic" NAME="CharacterTest Coverage Results" MODIFIED="1582450248543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.kb.*</FILTER>
+    </SUITE>
+  </component>
+</project>
