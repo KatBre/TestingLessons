@@ -71,7 +71,6 @@ public class CharacterTest {
         first.attack(second);
         first.attack(second);
         first.attack(second);
-        first.attack(second);
         assertThat(second.isAlive()).isFalse();
     }
 
@@ -79,8 +78,6 @@ public class CharacterTest {
     public void attack_characterAlive_toDeadOne() throws Exception {
         Character first = new Character("Czesiek", "Kowalski", 10, null, null);
         Character second = new Character("Franek", "Kimono", 10, null, null);
-        first.attack(second);
-        first.attack(second);
         first.attack(second);
         first.attack(second);
         first.attack(second);
@@ -104,10 +101,10 @@ public class CharacterTest {
         }).hasMessageContaining("dead");
     }
 
-    @Test
-    public void exception() throws Exception {
-        throw new Exception("coś nie tak");
-    }
+//    @Test
+//    public void exception() throws Exception {
+//        throw new Exception("coś nie tak");
+//    }
 
     static Stream<Arguments> attackParameters() {
         return Stream.of(
